@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2026-02-11
 
 ### Added
-- Initial release of `@GustavoQnt/ttl-cache`
+- Initial release of `@gustavoqnt/ttl-cache`
 - TTL-based expiration with configurable default (30s)
 - LRU eviction when `maxSize` is exceeded
 - Stale-While-Revalidate (SWR) support via `getOrSet()` with `swrMs` option
@@ -40,3 +40,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timer is `unref()`'d in Node.js (won't keep process alive)
 
 [0.1.0]: https://github.com/GustavoQnt/library/releases/tag/ttl-cache-v0.1.0
+

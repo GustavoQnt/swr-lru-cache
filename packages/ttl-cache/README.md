@@ -1,4 +1,4 @@
-# @GustavoQnt/ttl-cache
+# @gustavoqnt/ttl-cache
 
 In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request deduplication. TypeScript-first, zero dependencies.
 
@@ -7,13 +7,13 @@ In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request
 ## Quick Start
 
 ```bash
-npm install @GustavoQnt/ttl-cache
+npm install @gustavoqnt/ttl-cache
 ```
 
 ### Basic usage
 
 ```typescript
-import { TtlCache } from '@GustavoQnt/ttl-cache';
+import { TtlCache } from '@gustavoqnt/ttl-cache';
 
 const cache = new TtlCache<string, User>({
   ttlMs: 60_000,  // 1 minute (default: 30s)
@@ -71,7 +71,7 @@ const user = await cache.getOrSet(
 
 ## Comparison
 
-| Feature | `@GustavoQnt/ttl-cache` | `lru-cache` | `node-cache` |
+| Feature | `@gustavoqnt/ttl-cache` | `lru-cache` | `node-cache` |
 |---------|:---:|:---:|:---:|
 | TTL | ✅ | ✅ | ✅ |
 | LRU eviction | ✅ | ✅ | ❌ |
@@ -227,3 +227,4 @@ See [BENCHMARK.md](./BENCHMARK.md) for detailed instructions.
 ## License
 
 MIT
+

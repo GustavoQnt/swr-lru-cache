@@ -1,6 +1,6 @@
-# Benchmarks — @GustavoQnt/ttl-cache
+# Benchmarks — @gustavoqnt/ttl-cache
 
-Performance benchmarks for `@GustavoQnt/ttl-cache`, powered by [Vitest Bench](https://vitest.dev/api/#bench).
+Performance benchmarks for `@gustavoqnt/ttl-cache`, powered by [Vitest Bench](https://vitest.dev/api/#bench).
 
 ---
 
@@ -22,7 +22,7 @@ pnpm bench
 Or from the monorepo root:
 
 ```bash
-pnpm -F @GustavoQnt/ttl-cache bench
+pnpm -F @gustavoqnt/ttl-cache bench
 ```
 
 ### Watch Mode (re-runs on file change)
@@ -61,7 +61,7 @@ No background timers, no noise from periodic cleanup.
 
 ### Differential Features
 
-These benchmarks highlight what sets `@GustavoQnt/ttl-cache` apart from alternatives:
+These benchmarks highlight what sets `@gustavoqnt/ttl-cache` apart from alternatives:
 
 | Benchmark | What it measures |
 |-----------|-----------------|
@@ -174,7 +174,7 @@ import { LRUCache } from 'lru-cache';
 import { TtlCache } from '../src/index.js';
 
 describe('set 10k entries', () => {
-  bench('@GustavoQnt/ttl-cache', () => {
+  bench('@gustavoqnt/ttl-cache', () => {
     const cache = new TtlCache<number, number>({
       maxSize: 10_000,
       ttlMs: 60_000,
@@ -202,7 +202,7 @@ describe('get 10k entries (all hits)', () => {
     lruCache.set(i, i);
   }
 
-  bench('@GustavoQnt/ttl-cache', () => {
+  bench('@gustavoqnt/ttl-cache', () => {
     for (let i = 0; i < 10_000; i++) ttlCache.get(i);
   });
 
@@ -220,7 +220,7 @@ pnpm bench
 
 Vitest will display both libraries side-by-side within each `describe` group.
 
-> **Fair comparison note:** `lru-cache` does not have SWR or dedup, so those benchmarks are exclusive to `@GustavoQnt/ttl-cache`. For core set/get/eviction, `lru-cache` may be faster — it's a mature, highly optimized library. The value of `@GustavoQnt/ttl-cache` is in the **feature combination**, not raw throughput.
+> **Fair comparison note:** `lru-cache` does not have SWR or dedup, so those benchmarks are exclusive to `@gustavoqnt/ttl-cache`. For core set/get/eviction, `lru-cache` may be faster — it's a mature, highly optimized library. The value of `@gustavoqnt/ttl-cache` is in the **feature combination**, not raw throughput.
 
 ---
 
@@ -235,3 +235,4 @@ Benchmarks live in `test/performance.bench.ts`. Key design choices:
 - **Setup outside bench body** for get-only benchmarks in comparisons — isolates read performance
 
 See [Vitest Benchmark API](https://vitest.dev/api/#bench) for configuration options.
+
