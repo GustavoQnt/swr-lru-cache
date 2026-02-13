@@ -1,7 +1,7 @@
-# swr-lru-cache
+# @gustavoqnt/ttl-cache
 
-[![npm version](https://img.shields.io/npm/v/swr-lru-cache?style=flat-square)](https://www.npmjs.com/package/swr-lru-cache)
-[![npm downloads](https://img.shields.io/npm/dm/swr-lru-cache?style=flat-square&color=blue)](https://www.npmjs.com/package/swr-lru-cache)
+[![npm version](https://img.shields.io/npm/v/%40gustavoqnt%2Fttl-cache?style=flat-square)](https://www.npmjs.com/package/@gustavoqnt/ttl-cache)
+[![npm downloads](https://img.shields.io/npm/dm/%40gustavoqnt%2Fttl-cache?style=flat-square&color=blue)](https://www.npmjs.com/package/@gustavoqnt/ttl-cache)
 [![CI](https://img.shields.io/github/actions/workflow/status/GustavoQnt/swr-lru-cache/ci.yml?branch=main&style=flat-square)](https://github.com/GustavoQnt/swr-lru-cache/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 
