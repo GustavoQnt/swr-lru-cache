@@ -1,15 +1,20 @@
-# @gustavoqnt/ttl-cache
+# swr-lru-cache
+
+[![npm version](https://img.shields.io/npm/v/swr-lru-cache?style=flat-square)](https://www.npmjs.com/package/swr-lru-cache)
+[![npm downloads](https://img.shields.io/npm/dm/swr-lru-cache?style=flat-square&color=blue)](https://www.npmjs.com/package/swr-lru-cache)
+[![CI](https://img.shields.io/github/actions/workflow/status/GustavoQnt/swr-lru-cache/ci.yml?branch=main&style=flat-square)](https://github.com/GustavoQnt/swr-lru-cache/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 
 <!-- TRAFFIC_START -->
 ## Traffic Dashboard
 
 GitHub traffic snapshot (rolling window reported by GitHub API).
 
-Last 14 days totals: **0 views** (0 unique) and **0 clones** (0 unique).
+Totals since 2026-02-12: **0 views** and **0 clones**.
 
-| Date | Views | Unique Views | Clones | Unique Clones |
-|---|---:|---:|---:|---:|
-| pending first workflow run | 0 | 0 | 0 | 0 |
+| Date | Views | Clones |
+|---|---:|---:|
+| pending first workflow run | 0 | 0 |
 
 _Updated automatically: pending first workflow run_
 <!-- TRAFFIC_END -->
