@@ -27,8 +27,9 @@
     "build": "tsup",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "test": "vitest run --exclude test/stress.long.test.ts",
     "test:watch": "vitest",
+    "test:stress": "vitest run test/stress.long.test.ts",
     "bench": "vitest bench --run",
     "bench:watch": "vitest bench"
   },
@@ -60,4 +61,3 @@
     "node": ">=18"
   }
 }
-

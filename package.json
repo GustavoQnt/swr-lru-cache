@@ -4,8 +4,9 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r run build",
-    "test": "vitest run",
+    "test": "vitest run --exclude **/stress.long.test.ts",
     "test:watch": "vitest",
+    "test:stress": "pnpm -F @gustavoqnt/ttl-cache test:stress",
     "typecheck": "tsc -b",
     "bench": "vitest bench",
     "clean": "pnpm -r run clean"
