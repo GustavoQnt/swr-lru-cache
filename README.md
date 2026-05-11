@@ -10,10 +10,11 @@
 
 GitHub traffic snapshot (rolling window reported by GitHub API).
 
-Totals since 2026-02-12: **283 views** and **1589 clones**.
+Totals since 2026-02-12: **283 views** and **1601 clones**.
 
 | Date | Views | Clones |
 |---|---:|---:|
+| 2026-05-10 | 0 | 12 |
 | 2026-05-09 | 0 | 14 |
 | 2026-05-08 | 0 | 12 |
 | 2026-05-07 | 1 | 14 |
@@ -102,7 +103,7 @@ Totals since 2026-02-12: **283 views** and **1589 clones**.
 | 2026-02-13 | 94 | 146 |
 | 2026-02-12 | 75 | 161 |
 
-_Updated automatically: 2026-05-10T06:18:50.012Z_
+_Updated automatically: 2026-05-11T06:49:40.694Z_
 <!-- TRAFFIC_END -->
 
 In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request deduplication. TypeScript-first, zero dependencies.
